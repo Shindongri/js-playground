@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Playground: `this`</title>
+</head>
+<body>
+<script>
+  function baz() {
+    bar();
+  }
+
+  function bar() {
+    foo();
+  }
+
+  function foo() {
+    console.log( "foo" );
+  }
+
+  baz();
+</script>
+</body>
+</html>
